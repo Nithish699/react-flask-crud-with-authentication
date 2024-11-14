@@ -82,15 +82,15 @@ Go back to the backend directory and start the Flask server:
 ```bash
 flask run
 
-```bash
-✨ Features
+```
+##### ✨ Features
 CRUD operations (Create, Read, Update, Delete) for managing items
 User authentication (Login, Signup, and Logout)
 Responsive design using Material UI for the frontend
 Full-stack development using React for the frontend and Flask for the backend
 Uses SQLAlchemy as the ORM to interact with the SQLite database
 
-🧑‍💻 Best Practices
+##### 🧑‍💻 Best Practices
 MVC Pattern: The project follows the Model-View-Controller (MVC) pattern to separate concerns, ensuring better maintainability and scalability.
 Virtual Environments: The backend runs within a virtual environment, ensuring dependencies are isolated and the project setup is clean.
 Environment Variables: Used .env files to manage sensitive information such as database URIs and secret keys.
