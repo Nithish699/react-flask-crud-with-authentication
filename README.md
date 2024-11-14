@@ -26,3 +26,19 @@ How to set up the project locally, including instructions for cloning, setting u
 Clone the project using:
 ```bash
 git clone https://github.com/seanjoerick/react-flask-crud-with-authentication.git
+cd JRDEV-EXAM
+cd backend
+py -m venv venv
+For windows
+.venv\Scripts\activate
+pip install -r requirements.txt
+cd ../frontend
+npm install
+npm run build
+cd ../backend
+flask run
+
+This version includes the full set of steps for both backend and frontend, with clear instructions for setting up the environment and running the app locally. Let me know if you'd like to further adjust any section!
+
+
+
