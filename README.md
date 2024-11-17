@@ -95,5 +95,7 @@ MVC Pattern: The project follows the Model-View-Controller (MVC) pattern to sepa
 Virtual Environments: The backend runs within a virtual environment, ensuring dependencies are isolated and the project setup is clean.
 Environment Variables: Used .env files to manage sensitive information such as database URIs and secret keys.
 
+Watch the demo here: https://youtu.be/PzR-T5CEejo
+
 
 
