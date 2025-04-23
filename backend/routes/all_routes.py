@@ -2,6 +2,8 @@ from app import app
 from controllers.all_controller import get_items, create_item, get_item, update_items, delete_item, register, login, logout, delete_all_users
 from middleware.token_required import token_required
 
+print("--- Loading all_routes.py ---") # Add this line
+
 # Create a new item
 @app.route('/api/items', methods=['POST'])
 def create_new_item():
@@ -30,17 +32,25 @@ def delete_item_route(id):
 # Register
 @app.route('/api/register', methods=['POST'])
 def register_account():
+    print("--- ENTERED register_account() HANDLER ---") # Add this line
     return register()
+print("--- Route /api/register defined with POST ---") # Add this line
+
 
 # login
 @app.route('/api/login', methods=['POST'])
 def login_account():
+    print("--- ENTERED login_account() HANDLER ---") # Add this line
     return login()
+print("--- Route /api/login defined with POST ---") # Add this line
+
 
 # logout
 @app.route('/api/logout', methods=['POST'])
 def logout_account():
     return logout()
+print("--- Route /api/logout defined with POST ---") # Add this line
+
 
 @app.route('/api/users', methods=['DELETE'])
 def delete_users():
